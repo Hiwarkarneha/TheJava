@@ -1,5 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +6,7 @@
 </head>
 <body>
 <h1>Registration Form</h1>
-<form action="">
+<form action="register" method="Get">
 <label >Name:</label><br>
 <input type="text" name="name" placeholder=" Your name"><br>
 <label>LastName:</label><br>
@@ -23,5 +21,5 @@
 
 </form>
 
-</body>
+</body> 
 </html>

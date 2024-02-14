@@ -26,7 +26,7 @@ public class LoginServlets2 extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.getRequestDispatcher("welcome2.jsp").forward(request, response);
+		//request.getRequestDispatcher("welcome2.jsp").forward(request, response);
 	}
 
 }
